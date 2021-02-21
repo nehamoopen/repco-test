@@ -4,27 +4,27 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 Welcome | Best Practices for Writing Reproducible Code</title>
-  <meta name="description" content="This is a digital book for the course on Best Practices for Writing Reproducible Code. It contains all the relevant materials required for the course." />
+  <title>Chapter 2 Literature | A Minimal Book Example</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 Welcome | Best Practices for Writing Reproducible Code" />
+  <meta property="og:title" content="Chapter 2 Literature | A Minimal Book Example" />
   <meta property="og:type" content="book" />
   
   
-  <meta property="og:description" content="This is a digital book for the course on Best Practices for Writing Reproducible Code. It contains all the relevant materials required for the course." />
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 Welcome | Best Practices for Writing Reproducible Code" />
+  <meta name="twitter:title" content="Chapter 2 Literature | A Minimal Book Example" />
   
-  <meta name="twitter:description" content="This is a digital book for the course on Best Practices for Writing Reproducible Code. It contains all the relevant materials required for the course." />
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   
 
-<meta name="author" content="Utrecht University: Research Data Management (RDM) Support &amp; Open Science Community Utrecht (OSCU)" />
+<meta name="author" content="Yihui Xie" />
 
 
-<meta name="date" content="2020-11-26" />
+<meta name="date" content="2021-02-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,8 @@
   
   
 <link rel="prev" href="index.html"/>
-<link rel="next" href="project-setup.html"/>
+
+<script src="libs/header-attrs-2.6.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -51,24 +52,20 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
-<link href="libs/vembedr-0.1.4/css/vembedr.css" rel="stylesheet" />
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -88,7 +85,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -137,16 +134,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">A Minimal Book Example</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
-<li class="chapter" data-level="1" data-path="welcome.html"><a href="welcome.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
-<li class="chapter" data-level="2" data-path="project-setup.html"><a href="project-setup.html"><i class="fa fa-check"></i><b>2</b> Project setup &amp; version control with git</a><ul>
-<li class="chapter" data-level="2.1" data-path="project-setup.html"><a href="project-setup.html#content"><i class="fa fa-check"></i><b>2.1</b> Content</a></li>
-<li class="chapter" data-level="2.2" data-path="project-setup.html"><a href="project-setup.html#exercises"><i class="fa fa-check"></i><b>2.2</b> Exercises</a><ul>
-<li class="chapter" data-level="2.2.1" data-path="project-setup.html"><a href="project-setup.html#project-setup-1"><i class="fa fa-check"></i><b>2.2.1</b> 1. Project setup</a></li>
-<li class="chapter" data-level="2.2.2" data-path="project-setup.html"><a href="project-setup.html#version-control"><i class="fa fa-check"></i><b>2.2.2</b> 2. Version control</a></li>
-<li class="chapter" data-level="2.2.3" data-path="project-setup.html"><a href="project-setup.html#publication-licensing"><i class="fa fa-check"></i><b>2.2.3</b> 3. Publication &amp; licensing</a></li>
-</ul></li>
-</ul></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
+<li class="chapter" data-level="2" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>2</b> Literature</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -159,7 +148,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Best Practices for Writing Reproducible Code</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Minimal Book Example</a>
           </h1>
         </div>
 
@@ -167,10 +156,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="welcome" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Welcome</h1>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="welcome.html#cb1-1"></a>knitr<span class="op">::</span><span class="kw">include_url</span>(<span class="st">&#39;https://utrechtuniversity.github.io/workshop-computational-reproducibility/slides/slides_introduction.html#1&#39;</span>)</span></code></pre></div>
-<iframe src="https://utrechtuniversity.github.io/workshop-computational-reproducibility/slides/slides_introduction.html#1" width="672" height="400px">
+<div id="literature" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Literature</h1>
+<p>Here is a review of existing methods.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="literature.html#cb2-1"></a>knitr<span class="op">::</span><span class="kw">include_url</span>(<span class="st">&quot;slides/slides_project-setup.html&quot;</span>)</span></code></pre></div>
+<iframe src="slides/slides_project-setup.html" width="672" height="400px">
 </iframe>
 
 </div>
@@ -179,8 +169,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="project-setup.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -222,7 +212,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["bookdown.pdf", "bookdown.epub"],
+"download": ["repco-test.pdf", "repco-test.epub"],
 "toc": {
 "collapse": "subsection"
 }
@@ -230,6 +220,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
