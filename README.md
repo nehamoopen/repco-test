@@ -1,3 +1,3 @@
 RepCo test repo
 
-Here is the [link](_book/index.html) to the book. 
+Here is the [link](docs/index.html) to the book. 
