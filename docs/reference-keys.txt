@@ -1,2 +1,2 @@
 prerequisites
-literature
+project-setup
