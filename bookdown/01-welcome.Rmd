@@ -1,0 +1,6 @@
+# Welcome {#welcome}
+
+```{r}
+knitr::include_url('https://utrechtuniversity.github.io/workshop-computational-reproducibility/slides/slides_introduction.html#1')
+```
+
